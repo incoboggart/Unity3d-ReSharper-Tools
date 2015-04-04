@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UnityMethodsGenerator</id>
+    <version>1.0.2</version>
+    <title>Unity methods Generator</title>
+    <authors>0boggart0</authors>
+    <owners>0boggart0</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Generates Unity methods.</description>
+    <iconUrl>https://dl.dropboxusercontent.com/u/67116875/ReSharperPlugins/icon-unity.png</iconUrl>
+    <releaseNotes>Added EditorWindow support.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <dependencies>
+      <dependency id="Resharper" version="[8.2,8.3)"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Debug\UnityMethodsGenerator.dll" target="ReSharper\v8.2\plugins"/>
+    <file src="..\bin\Debug\UnityMethodsGenerator.pdb" target="ReSharper\v8.2\plugins"/>
+  </files>
+</package>
