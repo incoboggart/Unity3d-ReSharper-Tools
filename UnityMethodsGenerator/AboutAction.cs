@@ -4,8 +4,8 @@ using JetBrains.Application.DataContext;
 
 namespace ReSharperPlugins.UnityMethodsGenerator
 {
-    [ActionHandler("UnityMethodsGenerator.About")]
-    public class AboutAction : IActionHandler
+    //[ActionHandler("UnityMethodsGenerator.About")]
+    public class AboutAction //: IActionHandler
     {
         public bool Update(IDataContext context, ActionPresentation presentation, DelegateUpdate nextUpdate)
         {

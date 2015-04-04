@@ -2,7 +2,9 @@ using JetBrains.Application.DataContext;
 using JetBrains.ProjectModel;
 using JetBrains.ReSharper.Feature.Services.Generate;
 using JetBrains.ReSharper.Feature.Services.Generate.Actions;
+using JetBrains.ReSharper.Feature.Services.Generate.UI.New;
 using JetBrains.ReSharper.Psi;
+using JetBrains.UI.ActionsRevised;
 using JetBrains.UI.Icons;
 using DataConstants = JetBrains.ProjectModel.DataContext.DataConstants;
 
